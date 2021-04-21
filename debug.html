@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTA-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet"
+          href="https://bootswatch.com/4/sandstone/bootstrap.min.css" />
+    <title>MyBugList App</title>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="display-4 text-center">
+            <i class="fas fa-bug-open text-primary"></i>My<span class="text-primary">Bug</span>List
+        </h1>
+        <form id="bug-form">
+            <div class="form-group">
+                <label for="type">Type</label>
+                <input type="text" id="type" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="priority">Priority</label>
+                <input type="text" id="priority" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="description">Description#</label>
+                <input type="text" id="description" class="form-control" />
+            </div>
+            <input type="submit" value="Add Bug" class="btn btn-primary btn-block">
+        </form>
+        <table class="table table-striped mt-5">
+            <thead>
+                <tr>
+                    <th>Type</th>
+                    <th>Priority</th>
+                    <th>Description#</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="bug-list"></tbody>
+        </table>
+</div>
+    <script src="debug.js"></script>
+</body>
+</html>
+
+
