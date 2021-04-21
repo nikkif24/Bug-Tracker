@@ -1,5 +1,5 @@
 # Bug-Tracker
-Simple interface with server code
+Simple interface
 JS and HTML
 
 enchancements:
