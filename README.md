@@ -1,5 +1,6 @@
 # Bug-Tracker
-Simple interface with JS, CSS, and HTML
+Simple interface with server code
+JS and HTML
 
 enchancements:
 	- a way to edit status (moveable elements)
