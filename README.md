@@ -1,6 +1,5 @@
 # Bug-Tracker
-Simple interface
-JS and HTML
+Vanilla JS
 
 enchancements:
 	- a way to edit status (moveable elements)
